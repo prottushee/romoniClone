@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Romoni - Beauty at Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+
+<body>
+
+
+    <!-- Navbar -->
+    <header class="h-auto mb-5">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white shadow-sm">
+            <div class="container">
+                <a class="navbar-brand pt-2 text-secondary fw-bold border-0" href="./index.html">
+                    <img src="./img/logo.png" alt="Romoni" height="50"> Romoni
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+
+                        <!-- Dropdown for Services -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Services
+                            </a>
+                            <div class="dropdown-menu p-4" aria-labelledby="servicesDropdown" style="width: 1000px;">
+
+                                <div class="row">
+                                    <!-- Column 1 -->
+                                    <div class="col-md-3">
+                                        <h6 class="dropdown-header">Body Care</h6>
+                                        <a class="dropdown-item" href="#manicure">Manicure And Pedicure</a>
+                                        <a class="dropdown-item" href="#massage">Massage</a>
+                                        <a class="dropdown-item" href="#brighteningPolish">Brightening Polish</a>
+                                        <a class="dropdown-item" href="#facials">Facials</a>
+                                        <a class="dropdown-item text-primary" href="#allBodyCare">All Body Care</a>
+                                    </div>
+                                    <!-- Column 2 -->
+                                    <div class="col-md-3">
+                                        <h6 class="dropdown-header">Hair Care</h6>
+                                        <a class="dropdown-item" href="#hairStraightening">Hair Straightening</a>
+                                        <a class="dropdown-item" href="#hairTreatment">Hair Treatment</a>
+                                        <a class="dropdown-item" href="#hairColor">Hair Color</a>
+                                        <a class="dropdown-item" href="#hairCut">Hair Cut</a>
+                                        <a class="dropdown-item text-primary" href="#allHairCare">All Hair Care</a>
+                                    </div>
+                                    <!-- Column 3 -->
+                                    <div class="col-md-3">
+                                        <h6 class="dropdown-header">Packages</h6>
+                                        <a class="dropdown-item" href="#makeoverPackages">Makeover Packages</a>
+                                        <a class="dropdown-item" href="#momPackages">Mom Packages</a>
+                                        <a class="dropdown-item" href="#regularPackages">Regular Packages</a>
+                                        <a class="dropdown-item text-primary" href="#allPackages">All Packages</a>
+                                    </div>
+                                    <!-- Column 4 -->
+                                    <div class="col-md-3">
+                                        <h6 class="dropdown-header">Hair Removal</h6>
+                                        <a class="dropdown-item" href="#waxing">Waxing</a>
+                                        <a class="dropdown-item" href="#threading">Threading</a>
+                                        <a class="dropdown-item text-primary" href="#allHairRemoval">All Hair
+                                            Removal</a>
+                                        <h6 class="dropdown-header mt-3">Makeover</h6>
+                                        <a class="dropdown-item" href="#hennaArt">Henna Art</a>
+                                        <a class="dropdown-item" href="#bridal">Bridal</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+
+                        <li class="nav-item"><a class="nav-link" href="#">Offers</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#career">Career</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+                    </ul>
+                </div>
+
+                <span class="navbar-text pt-2 fw-500">
+                    <a class="btn btn-primary me-3 text-white" href="#book">Book Now</a>
+                    <a href="#search"><i class="bi bi-search mx-2"></i></a>
+                    <a href="#cart"><i class="bi bi-cart mx-2"></i></a>
+                    <a href="#profile"><i class="bi bi-person-circle mx-2"></i></a>
+                    <a href="#signin" class="text-decoration-none">Sign in</a>
+                </span>
+            </div>
+        </nav>
+        <!-- mid-section -->
+        <section class="mx-0 py-2 mid" style="margin-top: 5rem;" >
+            <div class="fw-light">
+                <h4 class="text-center">ENJOY UP TO 32% OFF!</h4>
+                <p class="m-0 text-center text-regular-12 text-boulder-500 lg:text-base">Head-to-toe care in one
+                    package.</p>
+            </div>
+        </section>
+        <!-- offerBanner -->
+        <section class="my-0">
+                        <img src="./img/offer-hero.jpg"  width="100%">
+        </section>
+              
+    <!--------------------- Main --------------------->
+    <main class="container-lg mt-3">       
+        <!-- Sale of the month section -->
+        <div class="container py-5">
+            <h3 class="mb-4 text-center" style="color: #5a2a82;">Sale of the Month</h3>
+            <div class="row g-2">
+                <!-- Service Card 1 -->
+                <div class="col-md-3">
+                    <div class="card position-relative">
+                        <img src="./img/trending1.jpg" class="card-img-top m-0" alt="Service Image">
+                        <div class="card-body">
+                            <small class="mt-0 mb-1" style="color: palevioletred; background-color: pink; border-radius: 20px; font-size: 0.75rem;">17% off</small>
+                            <a class="text-decoration-none fw-bold text-primary" href="./offer_details.html"><h5 class="card-title">Manicure and Pedicure</h5></a>
+                            <p class="card-text">Spa Manicure and Pedicure</p>
+                            <p class="text-muted"><i class="bi bi-clock"></i> 85 min &nbsp; <i class="bi bi-people"></i>
+                                13,490 orders</p>
+                            <div class="d-flex align-items-center justify-content-between">
+                                <span class="text-primary fw-bold">৳ 990</span>
+                                <del class="text-muted">৳ 1,199</del>
+                            </div>
+                            <button class="btn btn-primary w-100 mt-3">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card position-relative">
+                        <img src="./img/trending2.jpg" class="card-img-top m-0" alt="Service Image">
+                        <div class="card-body">
+                            <small class="mt-0 mb-1" style="color: palevioletred; background-color: pink; border-radius: 20px; font-size: 0.75rem;">17% off</small>
+                            <h5 class="card-title">Manicure and Pedicure</h5>
+                            <p class="card-text">Spa Manicure and Pedicure</p>
+                            <p class="text-muted"><i class="bi bi-clock"></i> 85 min &nbsp; <i class="bi bi-people"></i>
+                                13,490 orders</p>
+                            <div class="d-flex align-items-center justify-content-between">
+                                <span class="text-primary fw-bold">৳ 990</span>
+                                <del class="text-muted">৳ 1,199</del>
+                            </div>
+                            <button class="btn btn-primary w-100 mt-3">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card position-relative">
+                        <img src="./img/trending3.jpg" class="card-img-top m-0" alt="Service Image">
+                        <div class="card-body">
+                            <small class="mt-0 mb-1" style="color: palevioletred; background-color: pink; border-radius: 20px; font-size: 0.75rem;">17% off</small>
+                            <h5 class="card-title">Manicure and Pedicure</h5>
+                            <p class="card-text">Spa Manicure and Pedicure</p>
+                            <p class="text-muted"><i class="bi bi-clock"></i> 85 min &nbsp; <i class="bi bi-people"></i>
+                                13,490 orders</p>
+                            <div class="d-flex align-items-center justify-content-between">
+                                <span class="text-primary fw-bold">৳ 990</span>
+                                <del class="text-muted">৳ 1,199</del>
+                            </div>
+                            <button class="btn btn-primary w-100 mt-3">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card position-relative">
+                        <img src="./img/trending4.jpg" class="card-img-top m-0" alt="Service Image">
+                        <div class="card-body">
+                            <small class="mt-0 mb-1" style="color: palevioletred; background-color: pink; border-radius: 20px; font-size: 0.75rem;">17% off</small>
+                            <h5 class="card-title">Manicure and Pedicure</h5>
+                            <p class="card-text">Spa Manicure and Pedicure</p>
+                            <p class="text-muted"><i class="bi bi-clock"></i> 85 min &nbsp; <i class="bi bi-people"></i>
+                                13,490 orders</p>
+                            <div class="d-flex align-items-center justify-content-between">
+                                <span class="text-primary fw-bold">৳ 990</span>
+                                <del class="text-muted">৳ 1,199</del>
+                            </div>
+                            <button class="btn btn-primary w-100 mt-3">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="text-center mt-4">
+                    <button class="btn btn-outline-primary">View All Services</button>
+                </div>
+            </div>
+        </div>
+        <div class="container my-5">
+            <h2 class="text-center text-primary mb-4">Exclusive Deals For You</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <!-- Deal Card 1 -->
+              <div class="col">
+                <div class="card h-100 text-left border-muted shadow-sm">
+                  <div class="card-body">
+                    <p class="d-flex justify-content-between">
+                        Upto 500.00 BDt
+                      <span>Tara500 🔥</span>
+                    </p>
+                    <img src="./img/Tara_Voucher.jpg" width="5%">
+                    <p class="mt-2" style="font-size: small;">
+                      Get a special offer for BRAC Regular customers, valid till 31st December 2026.
+                    </p>
+                    <a href="#" class="d-inline text-secondary mb-3 text-decoration-none" style="font-size: smaller;">Terms & Conditions</a>
+                    <button class="btn btn-outline-secondary w-100">AVAIL NOW</button>
+                  </div>
+                </div>
+              </div>
+              <!-- Deal Card 2 -->
+              <div class="col">
+                <div class="card h-100 text-left border-muted shadow-sm">
+                  <div class="card-body">
+                    <p class="d-flex justify-content-between">
+                        11% Discount
+                      <span>BrTara11 🔥</span>
+                    </p>
+                    <img src="./img/brac-bank-tara.jpg" width="8%">
+                    <p class="mt-2" style="font-size: small;">
+                      Get a special offer for BRAC Regular customers, valid till 31st December 2026.
+                    </p>
+                    <a href="#" class="d-inline text-secondary mb-3 text-decoration-none" style="font-size: smaller;">Terms & Conditions</a>
+                    <button class="btn btn-outline-secondary w-100">AVAIL NOW</button>
+                  </div>
+                </div>
+              </div>
+              <!-- Deal Card 3 -->
+              <div class="col">
+                <div class="card h-100 text-left border-muted shadow-sm">
+                  <div class="card-body">
+                    <p class="d-flex justify-content-between">
+                        10% Discount
+                      <span>EBL 🔥</span>
+                    </p>
+                    <img src="./img/eastern-bank.jpg" width="30%">
+                    <p class="mt-2" style="font-size: small;">
+                      Get a special offer for BRAC Regular customers, valid till 31st December 2026.
+                    </p>
+                    <a href="#" class="d-inline text-secondary mb-3 text-decoration-none" style="font-size: smaller;">Terms & Conditions</a>
+                    <button class="btn btn-outline-secondary w-100">AVAIL NOW</button>
+                  </div>
+                </div>
+              </div>
+              <!-- Deal Card 4 -->
+              <div class="col">
+                <div class="card h-100 text-left border-muted shadow-sm">
+                  <div class="card-body">
+                    <p class="d-flex justify-content-between">
+                        11% Discount
+                      <span>BrPremium 🔥</span>
+                    </p>
+                    <img src="./img/brac-premium-bank.jpg" width="12%">
+                    <p class="mt-2" style="font-size: small;">
+                      Get a special offer for BRAC Regular customers, valid till 31st December 2026.
+                    </p>
+                    <a href="#" class="d-inline text-secondary mb-3 text-decoration-none" style="font-size: smaller;">Terms & Conditions</a>
+                    <button class="btn btn-outline-secondary w-100">AVAIL NOW</button>
+                  </div>
+                </div>
+              </div>
+              <!-- Deal Card 5 -->
+              <div class="col">
+                <div class="card h-100 text-left border-muted shadow-sm">
+                  <div class="card-body">
+                    <p class="d-flex justify-content-between">
+                        10% Discount
+                      <span>BrBank 🔥</span>
+                    </p>
+                    <img src="./img/brac.jpg" width="20%">
+                    <p class="mt-2" style="font-size: small;">
+                      Get a special offer for BRAC Regular customers, valid till 31st December 2026.
+                    </p>
+                    <a href="#" class="d-inline text-secondary mb-3 text-decoration-none" style="font-size: smaller;">Terms & Conditions</a>
+                    <button class="btn btn-outline-secondary w-100">AVAIL NOW</button>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Deal Card 6 -->
+              <div class="col">
+                <div class="card h-100 text-left border-muted shadow-sm">
+                  <div class="card-body">
+                    <p class="d-flex justify-content-between">
+                        10% Discount
+                      <span>GPSTAR10 🔥</span>
+                    </p>
+                    <img src="./img/grameenphone.jpg" width="20%">
+                    <p class="mt-2" style="font-size: small;">
+                      Get a special offer for BRAC Regular customers, valid till 31st December 2026.
+                    </p>
+                    <a href="#" class="d-inline text-secondary mb-3 text-decoration-none" style="font-size: smaller;">Terms & Conditions</a>
+                    <button class="btn btn-outline-secondary w-100">AVAIL NOW</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+                  
+        <!-- offer image -->
+        <section class="my-3">
+            <img src="./img/offer-banner.jpg" width="100%">
+        </section>
+         <!-- Trending section -->
+         <div class="container py-5">
+            <h3 class="mb-4 text-center" style="color: #5a2a82;">Trending Services</h3>
+            <div class="row g-2">
+                <!-- Service Card 1 -->
+                <div class="col-md-3">
+                    <div class="card position-relative">
+                        <img src="./img/trending1.jpg" class="card-img-top" alt="Service Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Manicure and Pedicure</h5>
+                            <p class="card-text">Spa Manicure and Pedicure</p>
+                            <p class="text-muted"><i class="bi bi-clock"></i> 85 min &nbsp; <i class="bi bi-people"></i>
+                                13,490 orders</p>
+                            <div class="d-flex align-items-center justify-content-between">
+                                <span class="text-primary fw-bold">৳ 990</span>
+                                <del class="text-muted">৳ 1,199</del>
+                            </div>
+                            <button class="btn btn-primary w-100 mt-3">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card position-relative">
+                        <img src="./img/trending2.jpg" class="card-img-top" alt="Service Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Manicure and Pedicure</h5>
+                            <p class="card-text">Spa Manicure and Pedicure</p>
+                            <p class="text-muted"><i class="bi bi-clock"></i> 85 min &nbsp; <i class="bi bi-people"></i>
+                                13,490 orders</p>
+                            <div class="d-flex align-items-center justify-content-between">
+                                <span class="text-primary fw-bold">৳ 990</span>
+                                <del class="text-muted">৳ 1,199</del>
+                            </div>
+                            <button class="btn btn-primary w-100 mt-3">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card position-relative">
+                        <img src="./img/trending3.jpg" class="card-img-top" alt="Service Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Manicure and Pedicure</h5>
+                            <p class="card-text">Spa Manicure and Pedicure</p>
+                            <p class="text-muted"><i class="bi bi-clock"></i> 85 min &nbsp; <i class="bi bi-people"></i>
+                                13,490 orders</p>
+                            <div class="d-flex align-items-center justify-content-between">
+                                <span class="text-primary fw-bold">৳ 990</span>
+                                <del class="text-muted">৳ 1,199</del>
+                            </div>
+                            <button class="btn btn-primary w-100 mt-3">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card position-relative">
+                        <img src="./img/trending4.jpg" class="card-img-top" alt="Service Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Manicure and Pedicure</h5>
+                            <p class="card-text">Spa Manicure and Pedicure</p>
+                            <p class="text-muted"><i class="bi bi-clock"></i> 85 min &nbsp; <i class="bi bi-people"></i>
+                                13,490 orders</p>
+                            <div class="d-flex align-items-center justify-content-between">
+                                <span class="text-primary fw-bold">৳ 990</span>
+                                <del class="text-muted">৳ 1,199</del>
+                            </div>
+                            <button class="btn btn-primary w-100 mt-3">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center mt-4">
+                    <button class="btn btn-outline-primary">View All Services</button>
+                </div>
+            </div>
+        </div>
+        
+        <section class="my-3">
+            <img src="./img/offer-banner-pink.jpg" width="100%">
+        </section>
+
+    </section>
+    <!-- Top Packages -->
+    <div class="container py-5">
+        <h3 class="mb-4 text-center" style="color: #5a2a82;">Top Packages</h3>
+        <div class="row g-2">
+            <!-- Service Card 1 -->
+            <div class="col-md-3">
+                <div class="card position-relative">
+                    <img src="./img/package1.jpg" class="card-img-top m-0">
+                    <div class="card-body">
+                        <small class="mt-0 mb-1" style="color: palevioletred; background-color: pink; border-radius: 20px; font-size: 0.75rem;">17% off</small>
+                        <h5 class="card-title">Manicure and Pedicure</h5>
+                        <p class="card-text">Spa Manicure and Pedicure</p>
+                        <p class="text-muted"><i class="bi bi-clock"></i> 85 min &nbsp; <i class="bi bi-people"></i>
+                            13,490 orders</p>
+                        <div class="d-flex align-items-center justify-content-between">
+                            <span class="text-primary fw-bold">৳ 990</span>
+                            <del class="text-muted">৳ 1,199</del>
+                        </div>
+                        <button class="btn btn-primary w-100 mt-3">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card position-relative">
+                    <img src="./img/package2.jpg" class="card-img-top m-0" alt="Service Image">
+                    <div class="card-body">
+                        <small class="mt-0 mb-1" style="color: palevioletred; background-color: pink; border-radius: 20px; font-size: 0.75rem;">17% off</small>
+                        <h5 class="card-title">Manicure and Pedicure</h5>
+                        <p class="card-text">Spa Manicure and Pedicure</p>
+                        <p class="text-muted"><i class="bi bi-clock"></i> 85 min &nbsp; <i class="bi bi-people"></i>
+                            13,490 orders</p>
+                        <div class="d-flex align-items-center justify-content-between">
+                            <span class="text-primary fw-bold">৳ 990</span>
+                            <del class="text-muted">৳ 1,199</del>
+                        </div>
+                        <button class="btn btn-primary w-100 mt-3">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card position-relative">
+                    <img src="./img/package4.jpg" class="card-img-top m-0" alt="Service Image">
+                    <div class="card-body">
+                        <small class="mt-0 mb-1" style="color: palevioletred; background-color: pink; border-radius: 20px; font-size: 0.75rem;">17% off</small>
+                        <h5 class="card-title">Manicure and Pedicure</h5>
+                        <p class="card-text">Spa Manicure and Pedicure</p>
+                        <p class="text-muted"><i class="bi bi-clock"></i> 85 min &nbsp; <i class="bi bi-people"></i>
+                            13,490 orders</p>
+                        <div class="d-flex align-items-center justify-content-between">
+                            <span class="text-primary fw-bold">৳ 990</span>
+                            <del class="text-muted">৳ 1,199</del>
+                        </div>
+                        <button class="btn btn-primary w-100 mt-3">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card position-relative">
+                    <img src="./img/package1.jpg" class="card-img-top m-0" alt="Service Image">
+                    <div class="card-body">
+                        <small class="mt-0 mb-1" style="color: palevioletred; background-color: pink; border-radius: 20px; font-size: 0.75rem;">17% off</small>
+                        <h5 class="card-title">Manicure and Pedicure</h5>
+                        <p class="card-text">Spa Manicure and Pedicure</p>
+                        <p class="text-muted"><i class="bi bi-clock"></i> 85 min &nbsp; <i class="bi bi-people"></i>
+                            13,490 orders</p>
+                        <div class="d-flex align-items-center justify-content-between">
+                            <span class="text-primary fw-bold">৳ 990</span>
+                            <del class="text-muted">৳ 1,199</del>
+                        </div>
+                        <button class="btn btn-primary w-100 mt-3">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+           
+            <div class="text-center mt-4">
+                <button class="btn btn-outline-primary">View All Services</button>
+            </div>
+        </div>
+    </div>
+
+    </main>
+    <!----------------------Footer ---------------------->
+    <footer class="mt-0 py-5 text-black" style="background-color: #d4c2e7;">
+        <div class="container">
+            <div class="row">
+                <!-- Company Information -->
+                <div class="col-md-3 mb-4">
+                    <h5 class="fw-bold" style="color:#5a2a82">Romoni</h5>
+                    <p>
+                        <i class="bi bi-telephone"></i> +880 9613224433<br>
+                        <i class="bi bi-telephone"></i> +880 9638224433<br>
+                        <i class="bi bi-envelope"></i> support@romoni.com.bd<br>
+                        <i class="bi bi-geo-alt"></i> House# 1263, Road# 10,<br>
+                        Avenue# 02, Mirpur DOHS,<br> Dhaka, Bangladesh
+                    </p>
+                    <div class="d-flex gap-2">
+                        <a href="#" class="text-black"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-black"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="text-black"><i class="bi bi-x"></i></a>
+                        <a href="#" class="text-black"><i class="bi bi-tiktok"></i></a>
+                        <a href="#" class="text-black"><i class="bi bi-linkedin"></i></a>
+                        <a href="#" class="text-black"><i class="bi bi-whatsapp"></i></a>
+                        <a href="#" class="text-black"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+                <!-- Discover Links -->
+                <div class="col-md-3 mb-4">
+                    <h5 class="fw-bold" style="color:#5a2a82">Discover</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-black text-decoration-none">About</a></li>
+                        <li><a href="#" class="text-black text-decoration-none">Blog</a></li>
+                        <li><a href="#" class="text-black text-decoration-none">Career</a></li>
+                        <li><a href="#" class="text-black text-decoration-none">Offers</a></li>
+                        <li><a href="#" class="text-black text-decoration-none">FAQs</a></li>
+                        <li><a href="#" class="text-black text-decoration-none">Join as Service Provider</a></li>
+                    </ul>
+                </div>
+                <!-- Services Links -->
+                <div class="col-md-3 mb-4">
+                    <h5 class="fw-bold" style="color:#5a2a82">Services</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-black text-decoration-none">Body Care</a></li>
+                        <li><a href="#" class="text-black text-decoration-none">Hair Care</a></li>
+                        <li><a href="#" class="text-black text-decoration-none">Packages</a></li>
+                        <li><a href="#" class="text-black text-decoration-none">Makeover</a></li>
+                        <li><a href="#" class="text-black text-decoration-none">Hairstyle</a></li>
+                        <li><a href="#" class="text-black text-decoration-none">Hair Removal</a></li>
+                        <li><a href="#" class="text-black text-decoration-none">Henna Art</a></li>
+                        <li><a href="#" class="text-black text-decoration-none">Bridal</a></li>
+                    </ul>
+                </div>
+                <!-- Stay in Touch -->
+                <div class="col-md-3 mb-4">
+                    <h5 class="fw-bold" style="color:#5a2a82">Stay in Touch</h5>
+                    <p>Subscribe to our newsletter so we can spam you with offers and discounts</p>
+                    <div class="d-flex gap-2">
+                        <input type="email" class="form-control" placeholder="Enter your email">
+                        <button class="btn btn-primary">YES! I LOVE A GOOD DEAL</button>
+                    </div>
+                    <button class="btn btn-outline-secondary mt-2">NO THANKS</button>
+                </div>
+            </div>
+            <hr class="border-white">
+            <div class="text-secondary d-flex justify-content-between align-items-center">
+                <!-- Footer Links -->
+                <p class="text-center mb-0">&copy; 2024 Romoni. All rights reserved.</p>
+                <div class="text-center pt-0">
+                    <a href="#" class="text-secondary text-decoration-none">Privacy Policy</a> |
+                    <a href="#" class="text-secondary text-decoration-none">FAQs</a> |
+                    <a href="#" class="text-secondary text-decoration-none">Terms of Service</a> |
+                    <a href="#" class="text-secondary text-decoration-none">Order Cancellation</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
