@@ -1,3 +1,7 @@
+/* :root {
+    --bs-primary: #5a2a82; 
+  } */
+  
 html,
 body {
     overflow-x: hidden;
@@ -28,6 +32,9 @@ h4{
   .text-primary {
     color: #5a2a82 !important;
   } 
+  
+
+
 hr{
     border: 3px solid #5a2a82;
     place-content: center;
@@ -136,4 +143,31 @@ a.text-decoration-none{
 }
 #productCarousel{
     margin-left: -12px;
+}
+.career-header {
+    position: relative;
+    width: 100%;
+}
+.career-header img {
+    width: 100%;
+    height: auto;
+}
+.career-text {
+    position: absolute;
+    bottom: 10rem;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 1rem 25rem 1rem 20rem;
+    font-size: 1.75rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+@media (max-width: 768px) {
+    .career-text {
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+    }
 }

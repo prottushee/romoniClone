@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Romoni - Beauty at Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+
+<body>
+
+
+      <!-- Navbar -->
+      <header class="h-auto mb-5">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white shadow-sm">
+            <div class="container">
+                <a class="navbar-brand pt-2 text-secondary fw-bold border-0" href="./index.html">
+                    <img src="./img/logo.png" alt="Romoni" height="50"> Romoni
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="./about.html">About</a></li>
+
+                        <!-- Dropdown for Services -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Services
+                            </a>
+                            <div class="dropdown-menu p-4" aria-labelledby="servicesDropdown" style="width: 1000px;">
+
+                                <div class="row">
+                                    <!-- Column 1 -->
+                                    <div class="col-md-3">
+                                        <h6 class="dropdown-header">Body Care</h6>
+                                        <a class="dropdown-item" href="./offer_details.html">Manicure And Pedicure</a>
+                                        <a class="dropdown-item" href="#massage">Massage</a>
+                                        <a class="dropdown-item" href="#brighteningPolish">Brightening Polish</a>
+                                        <a class="dropdown-item" href="#facials">Facials</a>
+                                        <a class="dropdown-item text-primary" href="#allBodyCare">All Body Care</a>
+                                    </div>
+                                    <!-- Column 2 -->
+                                    <div class="col-md-3">
+                                        <h6 class="dropdown-header">Hair Care</h6>
+                                        <a class="dropdown-item" href="#hairStraightening">Hair Straightening</a>
+                                        <a class="dropdown-item" href="#hairTreatment">Hair Treatment</a>
+                                        <a class="dropdown-item" href="#hairColor">Hair Color</a>
+                                        <a class="dropdown-item" href="#hairCut">Hair Cut</a>
+                                        <a class="dropdown-item text-primary" href="#allHairCare">All Hair Care</a>
+                                    </div>
+                                    <!-- Column 3 -->
+                                    <div class="col-md-3">
+                                        <h6 class="dropdown-header">Packages</h6>
+                                        <a class="dropdown-item" href="#makeoverPackages">Makeover Packages</a>
+                                        <a class="dropdown-item" href="#momPackages">Mom Packages</a>
+                                        <a class="dropdown-item" href="#regularPackages">Regular Packages</a>
+                                        <a class="dropdown-item text-primary" href="#allPackages">All Packages</a>
+                                    </div>
+                                    <!-- Column 4 -->
+                                    <div class="col-md-3">
+                                        <h6 class="dropdown-header">Hair Removal</h6>
+                                        <a class="dropdown-item" href="#waxing">Waxing</a>
+                                        <a class="dropdown-item" href="#threading">Threading</a>
+                                        <a class="dropdown-item text-primary" href="#allHairRemoval">All Hair
+                                            Removal</a>
+                                        <h6 class="dropdown-header mt-3">Makeover</h6>
+                                        <a class="dropdown-item" href="#hennaArt">Henna Art</a>
+                                        <a class="dropdown-item" href="#bridal">Bridal</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+
+                        <li class="nav-item"><a class="nav-link" href="./offers.html">Offers</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./career.html">Career</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./serviceProvider.html">Join</a></li>
+                    </ul>
+                </div>
+
+                <span class="navbar-text pt-2 fw-500">
+                    <a class="btn btn-primary me-3 text-white" href="./services.html">Book Now</a>
+                    <a href="#profile"><i class="bi bi-person-circle mx-2"></i></a>
+                    <a href="./signin.html" class="text-decoration-none">Sign in</a>
+                </span>
+            </div>
+        </nav>
+        <!-- mid-section -->
+        <section class="mx-0 py-2 mid" style="margin-top: 5rem;" >
+            <div class="fw-light">
+                <h4 class="text-center">ENJOY UP TO 32% OFF!</h4>
+                <p class="m-0 text-center text-regular-12 text-boulder-500 lg:text-base">Head-to-toe care in one
+                    package.</p>
+            </div>
+        </section>
+      </header>          
+    <!--------------------- Main --------------------->
+    <main class="container-lg mt-3">       
+        <div class="container py-5">
+            <!-- Breadcrumb Navigation -->
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                  <a href="/" class="text-decoration-none text-secondary">Home</a>
+                </li>
+                <li class="breadcrumb-item active text-black" aria-current="page">About</li>
+              </ol>
+            </nav>
+          
+            <!-- About Section Title -->
+            <div class="text-center mb-4">
+              <h2 class="text-primary">About</h2>
+            </div>
+          
+            <!-- About Description -->
+            <div class="mx-5 bg-light px-5 rounded">
+              <p class="lead-md text-center text-muted">
+                Romoni is the first and currently the largest salon-at-home brand in Bangladesh.  
+                Founded in 2018, Romoni provides a 360 platform for women micro-entrepreneurs in the beauty industry 
+                to start, run and grow their salon-at-home business. Romoni standardizes and facilitates the entire 
+                process by providing skills training.
+              </p>
+            </div>
+          </div>
+          
+          <div class="container py-5 d-none d-md-block">
+            <div class="row justify-content-center text-center">
+              <div class="col-md-4">
+                <h1 class="display-5 border-top pt-2">150K+</h1>
+                <p class="text-secondary text-uppercase">Happy Customers</p>
+              </div>
+              <div class="col-md-4">
+                <h1 class="display-5 border-top pt-2">200+</h1>
+                <p class="text-secondary text-uppercase">Expert Beauticians</p>
+              </div>
+              <div class="col-md-4">
+                <h1 class="display-5 border-top pt-2">30K+</h1>
+                <p class="text-secondary text-uppercase">Community Members</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- WHY ROMONI -->
+          <div class="container py-5">
+            <div class="text-center mb-5">
+              <h2 class="fw-500 text-primary">Why Romoni?</h2>
+            </div>
+            <div class="row g-4">
+              <div class="col-md-4">
+                <div class="card border-0 shadow-sm">
+                  <img src="./img/about1.jpg" class="card-img-top rounded-top" alt="Experienced & Verified Experts">
+                  <div class="card-body">
+                    <h5 class="card-title">Experienced & Verified Experts</h5>
+                    <p class="card-text">At Romoni, we prioritize professionalism and excellence. Our clients are served by highly experienced and verified beauticians to ensure the best possible experience.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card border-0 shadow-sm">
+                  <img src="./img/about2.jpg" class="card-img-top rounded-top" alt="Branded & Sealed Products">
+                  <div class="card-body">
+                    <h5 class="card-title">Branded & Sealed Products</h5>
+                    <p class="card-text">We use only premium, branded products for all our services. Our commitment to quality ensures that you receive the best treatments right at your home.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card border-0 shadow-sm">
+                  <img src="./img/about3.jpg" class="card-img-top rounded-top" alt="Transparent & Affordable Pricing">
+                  <div class="card-body">
+                    <h5 class="card-title">Transparent & Affordable Pricing</h5>
+                    <p class="card-text">Romoni is committed to transparency in pricing. Every service is affordably priced and carefully analyzed to ensure we provide the best products for each offering.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>          
+    
+          <!----------------How it Works ---------------->
+          <div class="container py-5">
+            <div class="text-center mb-5">
+              <h2 class="text-primary">How it Works</h2>
+            </div>
+          
+            <div class="row justify-content-center align-items-center">
+              <div class="col-md-4">
+                <ul class="timeline list-unstyled">
+                  <li class="d-flex align-items-center mb-4">
+                    <div class="flex-shrink-0 me-0">
+                      <img src="./img/calendar.jpg" alt="Place Your Order" class="rounded-circle bg-light p-2" width="60">
+                    </div>
+                    <div>
+                      <h5 class="mb-1">Place Your Order</h5>
+                      <p class="text-muted small">Select your desired beauty service through our website or app.</p>
+                    </div>
+                  </li>
+          
+                  <li class="d-flex align-items-center mb-4">
+                    <div class="flex-shrink-0 me-0">
+                      <img src="./img/Verification.jpg" alt="Verification" class="rounded-circle bg-light p-2" width="60">
+                    </div>
+                    <div>
+                      <h5 class="mb-1">Verification</h5>
+                      <p class="text-muted small">Our system confirms your order, ensuring services are tailored for women.</p>
+                    </div>
+                  </li>
+          
+                  <li class="d-flex align-items-center mb-4">
+                    <div class="flex-shrink-0 me-0">
+                      <img src="./img/Matching.jpg" alt="Matching Expertise" class="rounded-circle bg-light p-2" width="60">
+                    </div>
+                    <div>
+                      <h5 class="mb-1">Matching Expertise</h5>
+                      <p class="text-muted small">We match you with the best local beautician for your chosen service.</p>
+                    </div>
+                  </li>
+          
+                  <li class="d-flex align-items-center mb-4">
+                    <div class="flex-shrink-0 me-0">
+                      <img src="./img/Beautification.jpg" alt="Beautician Confirmation" class="rounded-circle bg-light p-2" width="60">
+                    </div>
+                    <div>
+                      <h5 class="mb-1">Beautician Confirmation</h5>
+                      <p class="text-muted small">The beautician accepts and prepares the order via the Romoni app.</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+          
+              <div class="col-md-3 text-center">
+                <img src="./img/howWorks.jpg" alt="Facial Massage" class="img-fluid rounded-circle bg-light p-4" width="350">
+              </div>
+          
+              <div class="col-md-4 mt-4">
+                <ul class="timeline list-unstyled">
+                  <li class="d-flex align-items-center mb-4">
+                    <div class="flex-shrink-0 me-0">
+                      <img src="./img/call.jpg" alt="Pre-Visit Call" class="rounded-circle bg-light p-2" width="60">
+                    </div>
+                    <div>
+                      <h5 class="mb-1">Pre-Visit Call</h5>
+                      <p class="text-muted small">The beautician will contact you before the appointment to confirm the schedule.</p>
+                    </div>
+                  </li>
+          
+                  <li class="d-flex align-items-center mb-4">
+                    <div class="flex-shrink-0 me-0">
+                      <img src="./img/arrival.jpg" alt="Arrival" class="rounded-circle bg-light p-2" width="60">
+                    </div>
+                    <div>
+                      <h5 class="mb-1">Arrival</h5>
+                      <p class="text-muted small">Your beautician arrives at your home at the agreed time.</p>
+                    </div>
+                  </li>
+          
+                  <li class="d-flex align-items-center mb-4">
+                    <div class="flex-shrink-0 me-0">
+                      <img src="./img/safety.jpg" alt="Safety First" class="rounded-circle bg-light p-2" width="60">
+                    </div>
+                    <div>
+                      <h5 class="mb-1">Safety First</h5>
+                      <p class="text-muted small">Ensure a secure environment when welcoming your beautician inside.</p>
+                    </div>
+                  </li>
+          
+                  <li class="d-flex align-items-center mb-4">
+                    <div class="flex-shrink-0 me-0">
+                      <img src="./img/service.jpg" alt="Service Delivery" class="rounded-circle bg-light p-2" width="60">
+                    </div>
+                    <div>
+                      <h5 class="mb-1">Service Delivery</h5>
+                      <p class="text-muted small">Relax and enjoy high-quality beauty services delivered with care.</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Our Journey -->
+          <div class="container text-center my-5">
+                  <h2 class="text-primary mb-5">Our Journey</h2>
+                  <div class="row g-5">
+                      <div class="col-lg-4">
+                          <div class="timeline-item p-4 bg-light rounded shadow">
+                              <h4 class="text-secondary">2018</h4>
+                              <p>Started our journey in August.</p>
+                          </div>
+                      </div>
+          
+                      <div class="col-lg-4">
+                          <div class="timeline-item p-4 bg-light rounded shadow">
+                              <h4 class="text-secondary">2019</h4>
+                              <ul class="list-unstyled">
+                                  <li>Launched service in Dhaka</li>
+                                  <li>Won UN FinTech Innovation Funding</li>
+                                  <li>Won Best Impact Startup</li>
+                              </ul>
+                          </div>
+                      </div>
+          
+                      <div class="col-lg-4">
+                          <div class="timeline-item p-4 bg-light rounded shadow">
+                              <h4 class="text-secondary">2020</h4>
+                              <p>Achieved 95K+ orders.</p>
+                          </div>
+                      </div>
+          
+                      <div class="col-lg-4">
+                          <div class="timeline-item p-4 bg-light rounded shadow">
+                              <h4 class="text-secondary">2021</h4>
+                              <p>Selected for Biniyog Briddhi Impact Fund.</p>
+                          </div>
+                      </div>
+          
+                      <div class="col-lg-4">
+                          <div class="timeline-item p-4 bg-light rounded shadow">
+                              <h4 class="text-secondary">2022</h4>
+                              <p>Achieved 350K+ orders.</p>
+                          </div>
+                      </div>
+          
+                      <div class="col-lg-4">
+                          <div class="timeline-item p-4 bg-light rounded shadow">
+                              <h4 class="text-secondary">2023</h4>
+                              <ul class="list-unstyled">
+                                  <li>In-house operations launched</li>
+                                  <li>Acumen Angels Award</li>
+                              </ul>
+                          </div>
+                      </div>
+          
+                      <div class="col-lg-4">
+                          <div class="timeline-item p-4 bg-light rounded shadow">
+                              <h4 class="text-secondary">2024</h4>
+                              <p>Expanded to new regions.</p>
+                          </div>
+                      </div>
+                  </div>   
+          </div>       
+
+          <!-----------------Commitement to excellence ------------->
+              <div class="container py-5">
+                  <div class="text-center mb-5">
+                      <h2 class="text-primary">Our Commitment to Excellence</h2>
+                      <p class="text-muted">At Romoni, we pride ourselves on our team of over 200 skilled professionals delivering top-tier beauty and wellness services.</p>
+                  </div>
+          
+                  <div class="text-center m-5">
+                      <h4 class="mb-4 text-muted">Rigorous Hiring Process</h4>
+                      <div class="row g-4">
+                          <div class="col-md-4">
+                              <div class="p-4 border-top bg-light">
+                                  <h5 class="text-uppercase" style="text-align: left; color: rgb(155, 153, 153)">First Interview</h5>
+                                  <p style=" text-align: left;">We conduct an initial interview to assess skills, background, and passion for beauty services.</p>
+                              </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="p-4 border-top bg-light">
+                                <h5 class="text-uppercase" style="text-align: left; color: rgb(155, 153, 153)">Capability Test</h5>
+                                <p style=" text-align: left;">Over two intensive days, candidates provide services to our models, demonstrating their expertise and proficiency.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="p-4 border-top bg-light">
+                              <h5 class="text-uppercase" style="text-align: left; color: rgb(155, 153, 153)">Selection & Onboarding</h5>
+                              <p style=" text-align: left;">Successful candidates receive a comprehensive onboarding package, including branded bags, necessary items, monthly products, and safety gear.</p>
+                          </div>
+                      </div>
+                      </div>
+                  </div>
+          
+                  <div class="text-center mb-5">
+                      <h4 class="text-muted mb-4">Service Provider Benefits</h4>
+                      <div class="d-flex flex-wrap justify-content-center gap-5">
+                          <div class="text-center">
+                              <img src="https://romoni.com.bd/assets/images/health-insurance.svg" width="40" alt="">
+                              <p class="m-2 text-secondary">Health Insurance</p>
+                          </div>
+                          <div class="text-center">
+                              <img src="https://romoni.com.bd/assets/images/professional-training.svg" width="40" alt="">
+                              <p class="m-2 text-secondary">Training</p>
+                          </div>
+                          <div class="text-center">
+                              <img src="https://romoni.com.bd/assets/images/banking-and-loan-access.svg" width="40" alt="">
+                              <p class="m-2 text-secondary">Banking & Loan</p>
+                          </div>
+                          <div class="text-center">
+                              <img src="https://romoni.com.bd/assets/images/service-supplies.svg" width="40" alt="">
+                              <p class="m-2 text-secondary">Service Supplies</p>
+                          </div>
+                          <div class="text-center mb-5">
+                              <img src="https://romoni.com.bd/assets/images/competitive-salary.svg" width="40" alt="">
+                              <p class="m-2 text-secondary">Competitive Salary</p>
+                          </div>
+                      </div>
+                  </div>
+          
+                  <div class="text-center">
+                      <h4 class="text-muted mt-5">Comprehensive Training</h4>
+                      <div class="row g-4">
+                          <div class="col-md-4">
+                              <div class="p-4 shadow-sm bg-light">
+                                  <h5>Skill Development</h5>
+                                  <p class="text-muted">Monthly workshops for growth and better service delivery.</p>
+                              </div>
+                          </div>
+                          <div class="col-md-4">
+                              <div class="p-4 shadow-sm bg-light">
+                                  <h5>Financial & Technical</h5>
+                                  <p class="text-muted">Quarterly sessions on financial skills and new tech trends.</p>
+                              </div>
+                          </div>
+                          <div class="col-md-4">
+                              <div class="p-4 shadow-sm bg-light">
+                                  <h5>Hygiene & Behavior</h5>
+                                  <p class="text-muted">Bi-monthly refreshers to ensure hygiene and professionalism.</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+
+                <section class="container py-5">
+                  <div class="mx-auto text-center" style="max-width: 600px;">
+                      <h3 class="text-primary fw-bold mb-3">Join as a Service Provider</h3>
+                      <p class="text-muted mb-4">
+                          Ready to be part of something transformative? Join the Romoni family and let's make a difference together. 
+                          Apply today and embark on a journey that's as unique as you are.
+                      </p>
+                      <a href="./serviceProvider.html" class="btn btn-primary px-5 py-3 text-uppercase">
+                          Apply now
+                      </a>
+                  </div>
+              </section>
+              
+    </main> <!-- container end div  -->
+
+    <div class="container py-5">
+      <div class="text-center mb-4">
+        <h3 class="text-primary fw-500 mb-4">Proudly Featured in...</h3>
+      </div>
+      <div class="mt-2 row justify-content-center g-3">
+        <div class="m-2 col-3 col-md-2 col-lg-1 text-center">
+          <img src="./img/accelerating-asia.jpg" width="100%" class="img-fluid rounded" alt="Partner Logo">
+        </div>
+        <div class="m-2 col-3 col-md-2 col-lg-1 text-center">
+          <img src="./img/bkash.jpg" width="80%" class="img-fluid rounded" alt="Partner Logo">
+        </div>
+        <div class="m-2 col-3 col-md-2 col-lg-1 text-center">
+          <img src="./img/the-daily-star.jpg" width="100%" class="img-fluid rounded" alt="Partner Logo">
+        </div>
+        <div class="m-2 col-3 col-md-2 col-lg-1 text-center">
+          <img src="./img/escap.jpg" width="100%" class="img-fluid rounded" alt="Partner Logo">
+        </div>
+        <div class="m-2 col-3 col-md-2 col-lg-1 text-center">
+          <img src="./img/prothom-alo.jpg" width="100%" class="img-fluid rounded" alt="Partner Logo">
+        </div>
+        <div class="m-2 col-3 col-md-2 col-lg-1 text-center">
+          <img src="./img/seedstars.jpg" width="100%" class="img-fluid rounded" alt="Partner Logo">
+        </div>
+        <div class="m-2 col-3 col-md-2 col-lg-1 text-center">
+          <img src="./img/uncdp.jpg" width="100%" class="img-fluid rounded" alt="Partner Logo">
+        </div>
+      </div>
+    </div>
+
+ 
+    <!----------------------Footer ---------------------->
+    <footer class="mb-0 py-5 text-black" style="background-color: #d4c2e7;">
+        <div class="container">
+            <div class="row">
+                <!-- Company Information -->
+                <div class="col-md-3 mb-4">
+                    <h5 class="fw-bold" style="color:#5a2a82">Romoni</h5>
+                    <p>
+                        <i class="bi bi-telephone"></i> +880 9613224433<br>
+                        <i class="bi bi-telephone"></i> +880 9638224433<br>
+                        <i class="bi bi-envelope"></i> support@romoni.com.bd<br>
+                        <i class="bi bi-geo-alt"></i> House# 1263, Road# 10,<br>
+                        Avenue# 02, Mirpur DOHS,<br> Dhaka, Bangladesh
+                    </p>
+                    <div class="d-flex gap-2">
+                        <a href="#" class="text-black"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-black"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="text-black"><i class="bi bi-x"></i></a>
+                        <a href="#" class="text-black"><i class="bi bi-tiktok"></i></a>
+                        <a href="#" class="text-black"><i class="bi bi-linkedin"></i></a>
+                        <a href="#" class="text-black"><i class="bi bi-whatsapp"></i></a>
+                        <a href="#" class="text-black"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+                <!-- Discover Links -->
+                <div class="col-md-3 mb-4">
+                    <h5 class="fw-bold" style="color:#5a2a82">Discover</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-black text-decoration-none">About</a></li>
+                        <li><a href="#" class="text-black text-decoration-none">Blog</a></li>
+                        <li><a href="#" class="text-black text-decoration-none">Career</a></li>
+                        <li><a href="#" class="text-black text-decoration-none">Offers</a></li>
+                        <li><a href="#" class="text-black text-decoration-none">FAQs</a></li>
+                        <li><a href="#" class="text-black text-decoration-none">Join as Service Provider</a></li>
+                    </ul>
+                </div>
+                <!-- Services Links -->
+                <div class="col-md-3 mb-4">
+                    <h5 class="fw-bold" style="color:#5a2a82">Services</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-black text-decoration-none">Body Care</a></li>
+                        <li><a href="#" class="text-black text-decoration-none">Hair Care</a></li>
+                        <li><a href="#" class="text-black text-decoration-none">Packages</a></li>
+                        <li><a href="#" class="text-black text-decoration-none">Makeover</a></li>
+                        <li><a href="#" class="text-black text-decoration-none">Hairstyle</a></li>
+                        <li><a href="#" class="text-black text-decoration-none">Hair Removal</a></li>
+                        <li><a href="#" class="text-black text-decoration-none">Henna Art</a></li>
+                        <li><a href="#" class="text-black text-decoration-none">Bridal</a></li>
+                    </ul>
+                </div>
+                <!-- Stay in Touch -->
+                <div class="col-md-3 mb-4">
+                    <h5 class="fw-bold" style="color:#5a2a82">Stay in Touch</h5>
+                    <p>Subscribe to our newsletter so we can spam you with offers and discounts</p>
+                    <div class="d-flex gap-2">
+                        <input type="email" class="form-control" placeholder="Enter your email">
+                        <button class="btn btn-primary">YES! I LOVE A GOOD DEAL</button>
+                    </div>
+                    <button class="btn btn-outline-secondary mt-2">NO THANKS</button>
+                </div>
+            </div>
+            <hr class="border-white">
+            <div class="text-secondary d-flex justify-content-between align-items-center">
+                <!-- Footer Links -->
+                <p class="text-center mb-0">&copy; 2024 Romoni. All rights reserved.</p>
+                <div class="text-center pt-0">
+                    <a href="#" class="text-secondary text-decoration-none">Privacy Policy</a> |
+                    <a href="#" class="text-secondary text-decoration-none">FAQs</a> |
+                    <a href="#" class="text-secondary text-decoration-none">Terms of Service</a> |
+                    <a href="#" class="text-secondary text-decoration-none">Order Cancellation</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

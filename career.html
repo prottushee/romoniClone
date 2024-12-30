@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Romoni - Beauty at Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+
+<body>
+
+
+       <!-- Navbar -->
+       <header class="h-auto mb-5">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white shadow-sm">
+            <div class="container">
+                <a class="navbar-brand pt-2 text-secondary fw-bold border-0" href="./index.html">
+                    <img src="./img/logo.png" alt="Romoni" height="50"> Romoni
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="./about.html">About</a></li>
+
+                        <!-- Dropdown for Services -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Services
+                            </a>
+                            <div class="dropdown-menu p-4" aria-labelledby="servicesDropdown" style="width: 1000px;">
+
+                                <div class="row">
+                                    <!-- Column 1 -->
+                                    <div class="col-md-3">
+                                        <h6 class="dropdown-header">Body Care</h6>
+                                        <a class="dropdown-item" href="./offer_details.html">Manicure And Pedicure</a>
+                                        <a class="dropdown-item" href="#massage">Massage</a>
+                                        <a class="dropdown-item" href="#brighteningPolish">Brightening Polish</a>
+                                        <a class="dropdown-item" href="#facials">Facials</a>
+                                        <a class="dropdown-item text-primary" href="#allBodyCare">All Body Care</a>
+                                    </div>
+                                    <!-- Column 2 -->
+                                    <div class="col-md-3">
+                                        <h6 class="dropdown-header">Hair Care</h6>
+                                        <a class="dropdown-item" href="#hairStraightening">Hair Straightening</a>
+                                        <a class="dropdown-item" href="#hairTreatment">Hair Treatment</a>
+                                        <a class="dropdown-item" href="#hairColor">Hair Color</a>
+                                        <a class="dropdown-item" href="#hairCut">Hair Cut</a>
+                                        <a class="dropdown-item text-primary" href="#allHairCare">All Hair Care</a>
+                                    </div>
+                                    <!-- Column 3 -->
+                                    <div class="col-md-3">
+                                        <h6 class="dropdown-header">Packages</h6>
+                                        <a class="dropdown-item" href="#makeoverPackages">Makeover Packages</a>
+                                        <a class="dropdown-item" href="#momPackages">Mom Packages</a>
+                                        <a class="dropdown-item" href="#regularPackages">Regular Packages</a>
+                                        <a class="dropdown-item text-primary" href="#allPackages">All Packages</a>
+                                    </div>
+                                    <!-- Column 4 -->
+                                    <div class="col-md-3">
+                                        <h6 class="dropdown-header">Hair Removal</h6>
+                                        <a class="dropdown-item" href="#waxing">Waxing</a>
+                                        <a class="dropdown-item" href="#threading">Threading</a>
+                                        <a class="dropdown-item text-primary" href="#allHairRemoval">All Hair
+                                            Removal</a>
+                                        <h6 class="dropdown-header mt-3">Makeover</h6>
+                                        <a class="dropdown-item" href="#hennaArt">Henna Art</a>
+                                        <a class="dropdown-item" href="#bridal">Bridal</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+
+                        <li class="nav-item"><a class="nav-link" href="./offers.html">Offers</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./career.html">Career</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./serviceProvider.html">Join</a></li>
+                    </ul>
+                </div>
+
+                <span class="navbar-text pt-2 fw-500">
+                    <a class="btn btn-primary me-3 text-white" href="./services.html">Book Now</a>
+                    <a href="#profile"><i class="bi bi-person-circle mx-2"></i></a>
+                    <a href="./signin.html" class="text-decoration-none">Sign in</a>
+                </span>
+            </div>
+        </nav>
+        <!-- mid-section -->
+        <section class="mx-0 py-2 mid" style="margin-top: 5rem;" >
+            <div class="fw-light">
+                <h4 class="text-center">ENJOY UP TO 32% OFF!</h4>
+                <p class="m-0 text-center text-regular-12 text-boulder-500 lg:text-base">Head-to-toe care in one
+                    package.</p>
+            </div>
+        </section>
+
+        <!-- offerBanner -->
+        <section class="my-0">
+            <section class="career-header">
+                <img src="./img/careers_bg.jpg" alt="Career Team Photo">
+                <div class="career-text text-primary">Careers</div>
+            </section>
+                        
+        </section>
+       </header>
+    <!--------------------- Main --------------------->
+    <main class="container-lg mt-3">       
+        <div class="container py-5">
+            <div class="text-center mb-5">
+                <h3 class="h2 text-primary">Why Romoni?</h3>
+            </div>
+            <div class="row text-center">
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="border-top p-4">
+                        <img src="./img/why-romoni-icon-1.jpg" alt="" class="img-fluid mb-3">
+                        <h4 class="text-gray">Empowerment</h4>
+                        <p class="text-muted">Your growth is our mission. We provide the resources and opportunities for you to excel and lead.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="border-top p-4">
+                        <img src="./img/why-romoni-icon-2.jpg" alt="Why Romoni" class="img-fluid mb-3">
+                        <h4 class="text-dark">Purposefulness</h4>
+                        <p class="text-muted">Every day at Romoni, you contribute to a meaningful cause, bringing goodness to people's lives.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="border-top p-4">
+                        <img src="./img/why-romoni-icon-3.jpg" alt="Why Romoni" class="img-fluid mb-3">
+                        <h4 class="text-dark">Innovation</h4>
+                        <p class="text-muted">Be part of a cutting-edge team that's constantly evolving and embracing new ideas.</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="text-center m-5">
+                <h3 class="h2 text-primary">Are you the next?</h3>
+                <div class="border-top p-4">
+                    <p class="mx-auto text-justify text-lg text-muted" style="max-width: 600px;">At Romoni, we thrive on the power of diverse talents coming together to create something extraordinary. We empower you to be your authentic self while driving positive change. If you're passionate about making a meaningful impact, driven by a sense of purpose, and excited to grow in a vibrant, inclusive environment, we want you with us!</p>
+                </div>
+                
+            </div>
+        </div>        
+    </main>
+<!----------------- employee carousel--------------------->
+<div class="h-auto mb-5" style="background: lightgray;">   
+<div class="container py-5" >
+        <div id="employeeCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                    <div class="card border-0 shadow-sm" style="background: lightgrey;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="./img/sharha.jpg" class="img-fluid rounded" alt="Sharha Shahneela Huda">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-text text-muted">At Romoni, I've discovered a culture of empowerment and creativity. As a product manager, I enjoy full ownership of my projects, which fuels my unbounded learning curve. The environment encourages ambitious ideas, and I’ve never faced discouragement from my colleagues. Our team is humble and supportive, fostering a sense of camaraderie where everyone genuinely cares for one another. Each day begins with laughter, making the office feel like a second home. Innovation is at the heart of our work, inspiring us to push boundaries and explore new possibilities together. Romoni is truly a place where dreams become achievable realities.</p>
+                                    <h5 class="card-title">Sharha Shahneela Huda</h5>
+                                    <p class="card-text"><small class="text-muted">Product & Marketing Manager</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Slide 2 -->
+                <div class="carousel-item">
+                    <div class="card border-0 shadow-sm " style="background: lightgrey;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="./img/farah.jpg" class="img-fluid rounded" alt="Farah Kalam">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-text text-muted">Joining Romoni was a game-changer for my career. I joined as an executive, but my team has assisted and empowered me into a transformational leader. With the guidance of my seniors and the support of my team, I am now leading the operations team as Operations Manager. The journey was a bit challenging for me, however I am thankful for the cooperation of the entire team. This is a place where we help and empower one another to grow and succeed, and Romoni has truly become my second home. I am honored to be a part of this incredible women-centric platform's journey, which I consider as my second home.</p>
+                                    <h5 class="card-title">Farah Kalam</h5>
+                                    <p class="card-text"><small class="text-muted">Operations Manager</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Slide 3 -->
+                <div class="carousel-item">
+                    <div class="card border-0 shadow-sm" style="background: lightgrey;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="./img/nusrat.jpg" class="img-fluid rounded" alt="Nusrat Jahan Swarna">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-text text-muted">Learning and working are continuous processes in one's career. Being a student while also working as an executive has never been easy, but it would have been impossible without the tremendous support of my team! From the very first moment until now, each and every colleague has taught me how to build myself by honing my capabilities at work. I don’t think there could have been a better start to my career than at Romoni. I owe Romoni for developing my professional skills.</p>
+                                    <h5 class="card-title">Nusrat Jahan Swarna</h5>
+                                    <p class="card-text"><small class="text-muted">Operations Executive</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Slide 4 -->
+                <div class="carousel-item">
+                    <div class="card border-0 shadow-sm" style="background: lightgrey;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="./img/jehana.jpg" class="img-fluid rounded" alt="Jehana Mowla">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-text text-muted">Working as a Senior Visual Designer for a home salon service was an interesting blend of creativity, branding, and digital strategy. My role was crucial in helping the brand stand out in a competitive market by visually communicating its unique offerings. One of the most exciting aspects of the job was designing promotional materials that conveyed the convenience and luxury of a home salon experience. Whether it was creating social media graphics or website layouts, my goal was to ensure that the visuals captured the brand's essence—professional, personalized, and high-quality.</p>
+                                    <h5 class="card-title">Jehana Mowla</h5>
+                                    <p class="card-text"><small class="text-muted">Senior Visual Designer</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <button class="carousel-control-prev" type="button" data-bs-target="#employeeCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#employeeCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</div> 
+
+<!-- hiring? -->
+ <div class="container-lg mt-5">
+    <div class="text-center m-5">
+        <h3 class="h2 text-primary">Current Openings</h3>
+        <div class="border-top p-4">
+            <h5 class="mb-1">We're not hiring right now, but stay tuned!</h5>
+            <p class="mx-auto text-justify text-lg text-muted" style="max-width: 600px;">At Romoni, we thrive on the power of diverse talents coming together to create something extraordinary. We empower you to be your authentic self while driving positive change. If you're passionate about making a meaningful impact, driven by a sense of purpose, and excited to grow in a vibrant, inclusive environment, we want you with us!</p>
+        </div>
+ </div>
+
+ <!-- Galleryy -->
+ <div class="container py-5">
+    <h3 class="text-center text-primary mb-4">Gallery</h3>
+  
+    <!-- Video Section
+    <div class="position-relative mb-3">
+      <video class="w-100 rounded-lg" src="https://static.romoni.com.bd/p/videos/romoni_carrier.mp4" preload="auto" controls></video>
+      <div class="position-absolute top-0 left-0 w-100 h-100 bg-black bg-opacity-50 d-flex justify-content-center align-items-center">
+        <button class="btn btn-light btn-lg">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="6 3 20 12 6 21 6 3"></polygon>
+          </svg>
+        </button>
+      </div>
+    </div> -->
+
+    <p class="text-center text-lg text-muted">Empowering Together - Team Romoni</p>
+  
+    <!-- Image Gallery Section -->
+    <div class="row g-4">
+      <div class="col-6 col-md-4">
+        <img src="./img/image_1.jpg" class="img-fluid rounded" alt="Gallery Image 1">
+      </div>
+      <div class="col-6 col-md-4">
+        <img src="./img/image_2.jpg" class="img-fluid rounded" alt="Gallery Image 2">
+      </div>
+      <div class="col-6 col-md-4">
+        <img src="./img/image_3.jpg" class="img-fluid rounded" alt="Gallery Image 3">
+      </div>
+      <div class="col-6 col-md-4">
+        <img src="./img/image_4.jpg" class="img-fluid rounded" alt="Gallery Image 4">
+      </div>
+      <div class="col-6 col-md-4">
+        <img src="./img/image_5.jpg" class="img-fluid rounded" alt="Gallery Image 5">
+      </div>
+    </div>
+  </div>
+  
+
+ <!-- get in touch with us form -->
+ <div class="container py-5">
+    <div class="row justify-content-center">
+      <div class="col-md-8 col-lg-6">
+        <h3 class="text-center text-primary mb-4">Get in Touch with us</h3>
+        
+        <div class="card p-4">
+          <h4 class="mb-3 text-primary">I'm a/an...</h4>
+          <form>
+            <!-- Radio Buttons -->
+            <div class="mb-3">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="role" id="jobSeeker" value="job-seeker">
+                <label class="form-check-label" for="jobSeeker">JOB SEEKER</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="role" id="investor" value="investor">
+                <label class="form-check-label" for="investor">INVESTOR</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="role" id="company" value="company">
+                <label class="form-check-label" for="company">COMPANY</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="role" id="other" value="other">
+                <label class="form-check-label" for="other">OTHER</label>
+              </div>
+            </div>
+            
+            <!-- Full Name -->
+            <div class="mb-3">
+              <label for="fullName" class="form-label">Full Name <span class="text-danger">*</span></label>
+              <input type="text" class="form-control" id="fullName" placeholder="Enter your full name" required>
+            </div>
+            
+            <!-- Phone Number -->
+            <div class="mb-3">
+              <label for="phoneNumber" class="form-label">Phone Number <span class="text-danger">*</span></label>
+              <input type="tel" class="form-control" id="phoneNumber" placeholder="+880 123 456 7890" required>
+            </div>
+            
+            <!-- Email Address -->
+            <div class="mb-3">
+              <label for="emailAddress" class="form-label">Email Address <span class="text-danger">*</span></label>
+              <input type="email" class="form-control" id="emailAddress" placeholder="example@example.com" required>
+            </div>
+            
+            <!-- Present Location -->
+            <div class="mb-3">
+              <label for="presentLocation" class="form-label">Present Location</label>
+              <input type="text" class="form-control" id="presentLocation" placeholder="Enter your address here">
+            </div>
+            
+            <!-- Message -->
+            <div class="mb-3">
+              <label for="message" class="form-label">Your Message <span class="text-danger">*</span></label>
+              <textarea class="form-control" id="message" rows="4" placeholder="Type your message here..." required></textarea>
+            </div>
+            
+            <!-- Submit Button -->
+            <button type="submit" class="btn btn-primary w-100">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+</div> <!-- container end div  -->
+
+ 
+    <!----------------------Footer ---------------------->
+    <footer class="mt-0 py-5 text-black" style="background-color: #d4c2e7;">
+        <div class="container">
+            <div class="row">
+                <!-- Company Information -->
+                <div class="col-md-3 mb-4">
+                    <h5 class="fw-bold" style="color:#5a2a82">Romoni</h5>
+                    <p>
+                        <i class="bi bi-telephone"></i> +880 9613224433<br>
+                        <i class="bi bi-telephone"></i> +880 9638224433<br>
+                        <i class="bi bi-envelope"></i> support@romoni.com.bd<br>
+                        <i class="bi bi-geo-alt"></i> House# 1263, Road# 10,<br>
+                        Avenue# 02, Mirpur DOHS,<br> Dhaka, Bangladesh
+                    </p>
+                    <div class="d-flex gap-2">
+                        <a href="#" class="text-black"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-black"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="text-black"><i class="bi bi-x"></i></a>
+                        <a href="#" class="text-black"><i class="bi bi-tiktok"></i></a>
+                        <a href="#" class="text-black"><i class="bi bi-linkedin"></i></a>
+                        <a href="#" class="text-black"><i class="bi bi-whatsapp"></i></a>
+                        <a href="#" class="text-black"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+                <!-- Discover Links -->
+                <div class="col-md-3 mb-4">
+                    <h5 class="fw-bold" style="color:#5a2a82">Discover</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-black text-decoration-none">About</a></li>
+                        <li><a href="#" class="text-black text-decoration-none">Blog</a></li>
+                        <li><a href="#" class="text-black text-decoration-none">Career</a></li>
+                        <li><a href="#" class="text-black text-decoration-none">Offers</a></li>
+                        <li><a href="#" class="text-black text-decoration-none">FAQs</a></li>
+                        <li><a href="#" class="text-black text-decoration-none">Join as Service Provider</a></li>
+                    </ul>
+                </div>
+                <!-- Services Links -->
+                <div class="col-md-3 mb-4">
+                    <h5 class="fw-bold" style="color:#5a2a82">Services</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-black text-decoration-none">Body Care</a></li>
+                        <li><a href="#" class="text-black text-decoration-none">Hair Care</a></li>
+                        <li><a href="#" class="text-black text-decoration-none">Packages</a></li>
+                        <li><a href="#" class="text-black text-decoration-none">Makeover</a></li>
+                        <li><a href="#" class="text-black text-decoration-none">Hairstyle</a></li>
+                        <li><a href="#" class="text-black text-decoration-none">Hair Removal</a></li>
+                        <li><a href="#" class="text-black text-decoration-none">Henna Art</a></li>
+                        <li><a href="#" class="text-black text-decoration-none">Bridal</a></li>
+                    </ul>
+                </div>
+                <!-- Stay in Touch -->
+                <div class="col-md-3 mb-4">
+                    <h5 class="fw-bold" style="color:#5a2a82">Stay in Touch</h5>
+                    <p>Subscribe to our newsletter so we can spam you with offers and discounts</p>
+                    <div class="d-flex gap-2">
+                        <input type="email" class="form-control" placeholder="Enter your email">
+                        <button class="btn btn-primary">YES! I LOVE A GOOD DEAL</button>
+                    </div>
+                    <button class="btn btn-outline-secondary mt-2">NO THANKS</button>
+                </div>
+            </div>
+            <hr class="border-white">
+            <div class="text-secondary d-flex justify-content-between align-items-center">
+                <!-- Footer Links -->
+                <p class="text-center mb-0">&copy; 2024 Romoni. All rights reserved.</p>
+                <div class="text-center pt-0">
+                    <a href="#" class="text-secondary text-decoration-none">Privacy Policy</a> |
+                    <a href="#" class="text-secondary text-decoration-none">FAQs</a> |
+                    <a href="#" class="text-secondary text-decoration-none">Terms of Service</a> |
+                    <a href="#" class="text-secondary text-decoration-none">Order Cancellation</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
